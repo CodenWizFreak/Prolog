@@ -6,15 +6,6 @@ This repository contains implementations of various Prolog assignments covering 
 ## 📅 Assignment Breakdown
 
 ### 📍 Day 1: Family Tree Implementation 🌳 (day1.pl)
-Define relationships using Prolog predicates:
-- `mother/2`, `father/2`
-- `son/2`, `daughter/2`
-- `uncle/2`, `aunt/2`
-- `maternal_grandmother/2`, `maternal_grandfather/2`
-- `paternal_grandmother/2`, `paternal_grandfather/2`
-- `siblings/2`
-- `wife/2`
-- `sonin_law/2`, `daughterin_law/2`
 
 ### 📍 Day 2: Recursive Definitions 🔄 (day2.pl)
 - Factorial of a number
