@@ -8,8 +8,6 @@ This repository contains implementations of various Prolog assignments covering 
 ### 📍 Day 1: Family Tree Implementation 🌳 (day1.pl)
 
 ### 📍 Day 2: Recursive Definitions 🔄 (day2.pl)
-- Factorial of a number
-- GCD (Greatest Common Divisor) of two numbers
 
 ### 📍 Day 3: Working with Numbers 🔢 (day3.pl)
 - Using operators for mathematical operations (`+`, `-`, `*`, `/`, `mod`)
