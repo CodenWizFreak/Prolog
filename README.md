@@ -10,47 +10,24 @@ This repository contains implementations of various Prolog assignments covering 
 ### 📍 Day 2: Recursive Definitions 🔄 (day2.pl)
 
 ### 📍 Day 3: Working with Numbers 🔢 (day3.pl)
-- Using operators for mathematical operations (`+`, `-`, `*`, `/`, `mod`)
-- Calculating with numbers and processing collections
 
 ### 📍 Day 4: List Operations 📜 (day4.pl)
-- Finding the number of elements in a list
-- Retrieving the K-th element
-- Checking if an element exists in a list
-- Identifying vowels and digits in a list
 
 ### 📍 Day 5: Use of Accumulators 📂 (day5.pl)
-- Basic list operations
-- Defining logic gates (`AND`, `OR`, `NOT`, `NAND`, `NOR`, `XOR`, `XNOR`)
-- Simulating an electronic circuit
 
 ### 📍 Day 6: Sorting Algorithm 🔢 (day6.pl)
-- Implementing Bubble Sort using CUT (`!`)
 
 ### 📍 Day 7: Employee Database 👩‍💻 (day7.pl)
-- Storing employee records in Prolog
-- Querying employee details:
-  - Retrieve employees with `EMPNAME='Lakshmi Shrivastava'` working in `AMAZON`
-  - Retrieve employee details working in `TCS`, `CTS`, `AMAZON` from `CSE`, `CSE-AIML`, `CSE-DS` at `HIT`
 
 ### 📍 Day 8: Graph Search Algorithms 🔍 (day8.pl)
-- Depth-First Search (DFS)
-- Breadth-First Search (BFS)
 
 ### 📍 Day 9: Puzzle Implementations 🧩 (day9.pl)
-- 8-Queens problem ♟️
-- Towers of Hanoi 🗼
-- Missionaries and Cannibals problem 🚣‍♂️
 
 ### 📍 Day 10: Expert System 🤖 (day10.pl)
-- Bird Recognition System 🦜
-- Disease Diagnosis System 🏥
-- Natural Language Processing (NLP) tasks 🗣️
 
 ## 🛠️ Technologies Used
 - **Prolog** (SWI-Prolog recommended)
 - **GitHub** for version control
-- **Markdown** for documentation
 
 ## 🚀 Getting Started
 ### Installation
