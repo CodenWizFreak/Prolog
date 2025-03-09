@@ -9,7 +9,7 @@ This repository contains implementations of various Prolog assignments covering 
 
 ### 📍 Day 2: Recursive Definitions 🔄 (day2.pl)
 
-### 📍 Day 3: Working with Numbers 🔢 (day3.pl)
+### 📍 Day 3: Employee Database 👩‍💻 (day3.pl)
 
 ### 📍 Day 4: List Operations 📜 (day4.pl)
 
@@ -17,7 +17,7 @@ This repository contains implementations of various Prolog assignments covering 
 
 ### 📍 Day 6: Sorting Algorithm 🔢 (day6.pl)
 
-### 📍 Day 7: Employee Database 👩‍💻 (day7.pl)
+### 📍 Day 7: Working with Numbers 🔢 (day7.pl)
 
 ### 📍 Day 8: Graph Search Algorithms 🔍 (day8.pl)
 
