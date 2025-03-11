@@ -15,6 +15,7 @@ parent(abhishek, kavita).
 parent(kamla, kavita).
 parent(rakesh, abhishek).
 parent(pramila, abhishek).
+parent(ankita,sam).
 
 male(rakesh).
 male(nilesh).
