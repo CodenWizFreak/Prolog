@@ -5,25 +5,25 @@ This repository contains implementations of various Prolog assignments covering 
 
 ## 📅 Assignment Breakdown
 
-### 📍 Day 1: Family Tree Implementation 🌳 (day1.pl)
+### 📍 Day 1: Family Tree Implementation (day1.pl)
 
-### 📍 Day 2: Recursive 🔄 (day2.pl)
+### 📍 Day 2: Recursive (day2.pl)
 
-### 📍 Day 3: Database Management System(DBMS) 👩‍💻 (day3.pl)
+### 📍 Day 3: Database Management System(DBMS) (day3.pl)
 
-### 📍 Day 4: List Operations / Logic Gates  (day4.pl)
+### 📍 Day 4: List Operations / Logic Gates (day4.pl)
 
-### 📍 Day 5: Use of Accumulators 📂 (day5.pl)
+### 📍 Day 5: 
 
-### 📍 Day 6: Sorting Algorithm 🔢 (day6.pl)
+### 📍 Day 6: 
 
-### 📍 Day 7: Working with Numbers 🔢 (day7.pl)
+### 📍 Day 7: 
 
-### 📍 Day 8: Graph Search Algorithms 🔍 (day8.pl)
+### 📍 Day 8: 
 
-### 📍 Day 9: Puzzle Implementations 🧩 (day9.pl)
+### 📍 Day 9:
 
-### 📍 Day 10: Expert System 🤖 (day10.pl)
+### 📍 Day 10: 
 
 ## 🛠️ Technologies Used
 - **Prolog** (SWI-Prolog recommended)
