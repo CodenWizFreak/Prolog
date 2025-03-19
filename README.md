@@ -7,11 +7,11 @@ This repository contains implementations of various Prolog assignments covering 
 
 ### 📍 Day 1: Family Tree Implementation 🌳 (day1.pl)
 
-### 📍 Day 2: Recursive Definitions 🔄 (day2.pl)
+### 📍 Day 2: Recursive 🔄 (day2.pl)
 
-### 📍 Day 3: Employee Database 👩‍💻 (day3.pl)
+### 📍 Day 3: Database Management System(DBMS) 👩‍💻 (day3.pl)
 
-### 📍 Day 4: List Operations 📜 (day4.pl)
+### 📍 Day 4: List Operations / Logic Gates  (day4.pl)
 
 ### 📍 Day 5: Use of Accumulators 📂 (day5.pl)
 
