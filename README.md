@@ -50,4 +50,5 @@ prolog-lab/
 
 ## 📝 Authors
 [Anidipta Pal](https://github.com/Anidipta)
+
 [Ananyo DG](https://github.com/CodenWizFreak)
