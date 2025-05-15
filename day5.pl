@@ -12,3 +12,44 @@ bubble([A,B|T],L):-
   ->L=[B,A|T]
   ;L=[A|L1],
   bubble([B|T],L1)).
+
+
+% Implementation of DFS (with output)
+
+%                    A
+%                   / \
+%                  /   \
+%                 B     C
+%                /       \
+%               /         \
+%              D           E
+%             /
+%            /
+%           F
+%          / \
+%         /   \
+%        G     H
+
+% ?_dfs(a,h,Path).
+% Path=[a,b,d,f,g,h].
+
+dfs(Start,Goal,Path):-
+  dfs_stack([Start],Goal,[],Path,0,Iterations).
+  
+dfs_stack([Goal|_],Goal,Visited,Path,Iterations,Iterations):-
+  reverse([Goal|Visited],Path).
+  
+dfs_stack([Current|Rest],Goal,Visited,Path,Iterations,FinalIterations):-  
+  \+member(Current,Visited),
+  findall(Next,edge(Current,Next),Neighbor),
+  append(Neighbor,Rest,NewStack),
+  NewIterations is Iterations+1,
+  dfs_stacks(NewStack,Goal,[Current|Visited],Path,NewIterations,FinalIterations).
+
+edge(a,b).
+edge(a,c).
+edge(b,d).
+edge(c,e).
+edge(d,f).
+edge(f,g).
+edge(f,h).
