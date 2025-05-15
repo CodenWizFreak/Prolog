@@ -48,6 +48,26 @@ dfs_stack([Current|Rest],Goal,Visited,Path,Iterations,FinalIterations):-
   NewIterations is Iterations+1,
   dfs_stack(NewStack,Goal,[Current|Visited],Path,NewIterations,FinalIterations).
 
+
+  % Base rule to start BFS with empty visited list, queue, path, and iteration counter
+bfs(Start, Goal, Path) :-
+    bfs_queue([[Start]], Goal, Path, 0, Iterations),
+    format('Total Iterations: ~w~n', [Iterations]).
+
+% If the current path starts with Goal, we found it
+bfs_queue([[Goal|RestPath]|_], Goal, Path, Iterations, Iterations) :-
+    reverse([Goal|RestPath], Path).
+
+% Recursive BFS search
+bfs_queue([[Current|RestPath]|OtherPaths], Goal, Path, Iter, FinalIter) :-
+    findall([Next,Current|RestPath],
+            (edge(Current, Next), \+ member(Next, [Current|RestPath])),
+            NewPaths),
+    append(OtherPaths, NewPaths, UpdatedQueue),
+    NewIter is Iter + 1,
+    bfs_queue(UpdatedQueue, Goal, Path, NewIter, FinalIter).
+
+
 edge(a,b).
 edge(a,c).
 edge(b,d).
